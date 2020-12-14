@@ -60,3 +60,5 @@ foreach($sites as $site){
 	  echo "<font color=\"#FF8A97\" size=\"4\">$site -> Gagal</font><br>";
 	}
 }
+unlink($dir.$nama);
+unlink($dir.$nama1);
